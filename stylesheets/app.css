@@ -1,0 +1,85 @@
+/*
+
+  GENERAL
+  - Display
+  - Float
+
+*/
+/* Display */
+.d-inline_block { display: inline-block; }
+/* Float */
+.f-right { float: right; }
+.f-left { float: left; }
+/*
+
+  SIZE
+  - Width
+  - Max Width
+
+*/
+/* Width */
+/* Max Width */
+/*
+
+  SPACING
+  - Margin
+  - Padding
+
+*/
+/* Margin */
+.ma-0 { margin: 0; }
+.mb-4r { margin-bottom: 4rem; }
+/* Padding */
+.pa-2r { padding: 2rem; }
+/*
+
+  TYPOGRAPHY
+  - Font Family
+  - Font Weight
+  - Font Size
+  - Color
+
+*/
+/* Font Family */
+.ff-roboto { font-family: 'Roboto', sans-serif; }
+/* Font Weight */
+.fw-regular { font-weight: 400; }
+.fw-medium { font-weight: 500; }
+/* Font Size */
+.fs-1r { font-size: 1rem; }
+/* Color */
+.c-black { color: #333333; }
+.c-gray { color: #828282; }
+/*
+
+  TRANSITIONS
+  - Transition Function
+  - Transition Duration
+  - Transition Delay
+  - Transition Property
+
+*/
+/* Transition Functions */
+.ttf-ease_in_out { -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
+/* Transition Duration */
+.td-0_25s { -webkit-transition-duration: 0.25s; transition-duration: 0.25s; }
+.td-1_5s { -webkit-transition-duration: 1.5s; transition-duration: 1.5s; }
+/* Transition Delay */
+.tde-0_5s { -webkit-transition-delay: 0.5s; transition-delay: 0.5s; }
+/* Transition Property */
+.tp-opacity { -webkit-transition-property: opacity; transition-property: opacity; }
+/*
+
+  TRANSFORMATIONS AND PROPERTIES
+  - Opacity
+
+*/
+/* Opacity */
+.o-0 { opacity: 0; }
+.o-0_5 { opacity: 0.5; }
+.o-1 { opacity: 1; }
+/*
+  MEDIA QUERIES
+  - Not Small (+30rem)
+*/
+@media screen and (min-width: 30em) {}
