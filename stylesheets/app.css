@@ -3,13 +3,17 @@
   GENERAL
   - Display
   - Float
+  - List Style
 
 */
 /* Display */
+.d-block { display: block; }
 .d-inline_block { display: inline-block; }
 /* Float */
 .f-right { float: right; }
 .f-left { float: left; }
+/* List Style */
+.ls-none { list-style: none; }
 /*
 
   SIZE
@@ -18,6 +22,7 @@
 
 */
 /* Width */
+.w-50p { width: 50%; }
 /* Max Width */
 /*
 
@@ -28,9 +33,14 @@
 */
 /* Margin */
 .ma-0 { margin: 0; }
+.mb-0_5r { margin-bottom: 0.5rem; }
+.mb-1r { margin-bottom: 1rem; }
 .mb-4r { margin-bottom: 4rem; }
+.ml-0_5r { margin-left: 0.5rem; }
 /* Padding */
+.pa-0 { padding: 0; }
 .pa-2r { padding: 2rem; }
+.pl-1r { padding-left: 1rem; }
 /*
 
   TYPOGRAPHY
@@ -38,6 +48,7 @@
   - Font Weight
   - Font Size
   - Color
+  - Text Align
 
 */
 /* Font Family */
@@ -50,6 +61,8 @@
 /* Color */
 .c-black { color: #333333; }
 .c-gray { color: #828282; }
+/* Text Align */
+.ta-right { text-align: right; }
 /*
 
   TRANSITIONS
