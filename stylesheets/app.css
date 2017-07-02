@@ -2,28 +2,50 @@
 
   GENERAL
   - Display
+  - Position
+  - Z-index
   - Float
   - List Style
+  - Border
+  - Border Radius
+  - Box Shadow
+  - Outline
 
 */
 /* Display */
 .d-block { display: block; }
 .d-inline_block { display: inline-block; }
+/* Position */
+.p-relative { position: relative; }
+.p-fixed { position: fixed; }
+.r-2r { right: 2rem; }
+.b-2r { bottom: 2rem; }
+.b-6r { bottom: 6rem; }
+/* Z-index */
+.zi-2 { z-index: 2; }
 /* Float */
 .f-right { float: right; }
 .f-left { float: left; }
 /* List Style */
 .ls-none { list-style: none; }
+/* Border */
+.b-none { border: none; }
+/* Border Radius */
+.bra-50p { border-radius: 50%; }
+/* Box Shadow */
+.bs-a { box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.32); }
+/* Outline */
+.o-none { outline: none; }
 /*
 
   SIZE
   - Width
-  - Max Width
+  - Height
 
 */
 /* Width */
 .w-50p { width: 50%; }
-/* Max Width */
+/* Height */
 /*
 
   SPACING
@@ -39,6 +61,7 @@
 .ml-0_5r { margin-left: 0.5rem; }
 /* Padding */
 .pa-0 { padding: 0; }
+.pa-1r { padding: 1rem; }
 .pa-2r { padding: 2rem; }
 .pl-1r { padding-left: 1rem; }
 /*
@@ -48,6 +71,7 @@
   - Font Weight
   - Font Size
   - Color
+  - Background Color
   - Text Align
 
 */
@@ -61,6 +85,12 @@
 /* Color */
 .c-black { color: #333333; }
 .c-gray { color: #828282; }
+.c-white { color: #ffffff; }
+/* Background Color */
+.bg-blue { background-color: #2F80ED; }
+.bg-green { background-color: #27AE60; }
+.bg-red { background-color: #EB5757; }
+.bg-light_gray { background-color: #E0E0E0; }
 /* Text Align */
 .ta-right { text-align: right; }
 /*
@@ -76,20 +106,25 @@
 .ttf-ease_in_out { -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
 /* Transition Duration */
 .td-0_25s { -webkit-transition-duration: 0.25s; transition-duration: 0.25s; }
-.td-1_5s { -webkit-transition-duration: 1.5s; transition-duration: 1.5s; }
-/* Transition Delay */
-.tde-0_5s { -webkit-transition-delay: 0.5s; transition-delay: 0.5s; }
 /* Transition Property */
+.tp-scale { -webkit-transition-property: scale; transition-property: scale; }
 .tp-opacity { -webkit-transition-property: opacity; transition-property: opacity; }
+.tp-transform { -webkit-transition-property: transform; transition-property: transform; }
 /*
 
   TRANSFORMATIONS AND PROPERTIES
+  - Transform
+  - Scale
   - Opacity
 
 */
+/* Transform */
+.t-r45d { webkit-transform: rotate(45deg); transform: rotate(45deg); }
+/* Scale */
+.t-s0 { webkit-transform: scale(0); transform: scale(0); }
+.t-s1 { webkit-transform: scale(1); transform: scale(1); }
 /* Opacity */
 .o-0 { opacity: 0; }
-.o-0_5 { opacity: 0.5; }
 .o-1 { opacity: 1; }
 /*
   MEDIA QUERIES
